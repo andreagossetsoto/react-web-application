@@ -6,6 +6,7 @@ let theme = createTheme({
       main: '#FFFFFF',
       gray: '#4D5562',
       purple: '#6169E9',
+      darkGray: '#282c34',
     },
     background: {
       default: '#f8f9fa',

@@ -9,9 +9,6 @@ import AcUnitIcon from '@mui/icons-material/AcUnit';
 const AppBarStyles = styled(AppBar)(({ theme }) => ({
   backgroundColor: theme.palette.background.page,
   color: theme.palette.primary.main,
-  [theme.breakpoints.down('md')]: {
-    // backgroundColor: 'lightyellow',
-  },
 }));
 
 export default function DesktopHeader() {
